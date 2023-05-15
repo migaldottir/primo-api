@@ -14,5 +14,8 @@ class API {
             "age" => $OutputData["age"]
         );
         }
+    return json_encode($users);
+    
     }
 }
+
